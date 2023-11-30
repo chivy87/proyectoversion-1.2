@@ -1,0 +1,143 @@
+
+header{
+    display: flex;
+    position: relative;
+    top: auto;
+    left: 44%;
+   
+
+    
+}
+body{
+    background-color: black;
+    font-family: 'Trade Winds', cursive;
+    color: green;
+    font-size: 15px;
+    margin: 0; 
+}
+
+h1{
+    font-size: 30px;
+    margin: 0;
+    padding:10px;
+    color: green;
+    
+    
+}
+
+h2{
+    font-size: 30px;
+    margin: 0;
+    padding:10px;
+    color: green;
+
+}
+
+#volver{
+    position: fixed;
+    top: 0;
+    margin: 0;
+    left: 90%;
+    width: 10%;
+   
+}
+
+#preguntas{
+    
+    top: 0;
+    margin: 0;
+
+}
+
+
+
+input[type=text] {
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    width: 98%;
+    border: 2px solid black;
+    color: green;
+    margin-top: 10px;
+}
+
+
+
+input, textarea {
+    font-family: 'Trade Winds', cursive;
+   /* font-family:inherit;*/
+    font-size: inherit;
+}
+
+.persona-container{
+    margin-top: 1em;
+    
+}
+
+.persona__label {
+    display: flex;
+    margin: 10px;
+    
+}
+
+.persona{
+    position:relative;
+    margin: 5px;
+}
+
+.persona__inputs{
+    width: 100%;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: yellow;
+}
+.error-detalle {
+    color: rgb(243, 91, 91);
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    
+}
+
+.error-detalle input[type=text] {
+    color: red;
+    background-color: red;
+}
+
+.persona__boton_enviar {
+    border: none;
+    width: 162px;
+    height: 51px;
+    border: 2px solid #171414;
+    margin: auto;
+    margin-top: 1%;
+    border-radius:5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    color: green;
+  
+}
+
+.persona.error-detalle {
+    display: block;
+}
+
+
+.persona-container {
+    font-family: 'Tourney', cursive;
+    padding:10px;
+    margin: 10px;
+    background:black;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 2 em;   
+}  
+
+
+
+
+
